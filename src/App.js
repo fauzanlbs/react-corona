@@ -31,7 +31,6 @@ class App extends React.Component {
       <div className={styles.container}>
        <p style={{fontSize:28, fontWeight:'bold', textAlign:'center'}}>INFORMASI UPDATE DATA COVID 19</p>
        <p style={{fontSize:15, fontWeight:'bold', textAlign:'center'}}>Sumber: https://covid19.mathdro.id/api </p>
-       <p style={{fontSize:15, textAlign:'center'}}>By Fauzan Lubis</p>
         <CountryPicker handleCountryChange={this.handleCountryChange} />
         <Cards data={data} />
         <Chart data={data} country={country} /> 

@@ -32,7 +32,7 @@ class App extends React.Component {
        <h1 style={{fontSize:18,textAlign:'center', color:'white'}}>INFO UPDATE COVID 19</h1>
        <p style={{fontSize:15, color:'rgb(164, 164, 179)', fontWeight:'bold', textAlign:'center', fontVariant:'small-caps', fontVariantCaps:'all-small-caps'}}>Sumber: https://covid19.mathdro.id/api </p>
         <CountryPicker handleCountryChange={this.handleCountryChange} />
-        <Cards data={data} />
+        <Cards data={data}/>
         <Chart data={data} country={country} /> 
       </div>
     );

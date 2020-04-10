@@ -29,8 +29,8 @@ class App extends React.Component {
 
     return (
       <div className={styles.container}>
-       <p style={{fontSize:28, fontWeight:'bold', textAlign:'center'}}>INFORMASI UPDATE DATA COVID 19</p>
-       <p style={{fontSize:15, fontWeight:'bold', textAlign:'center'}}>Sumber: https://covid19.mathdro.id/api </p>
+       <h1 style={{fontSize:19,textAlign:'center'}}>INFO UPDATE COVID 19</h1>
+       <p style={{fontSize:15, fontWeight:'bold', textAlign:'center', fontVariant:'small-caps', fontVariantCaps:'all-small-caps'}}>Sumber: https://covid19.mathdro.id/api </p>
         <CountryPicker handleCountryChange={this.handleCountryChange} />
         <Cards data={data} />
         <Chart data={data} country={country} /> 
